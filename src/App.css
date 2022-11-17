@@ -1,0 +1,321 @@
+.container{
+  background-color: #04050D;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+/* Navbar */
+.header{
+  align-items: center;
+  color: #fff;
+}
+
+#h-t{
+ width :450px;
+ height :350px;
+ margin-top: -75px;
+ margin-bottom: -150px;
+ margin-left: 20%;
+}
+
+input{
+  padding: 9px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  width: 400px;
+}
+
+select{
+  padding: 8px;
+  border-radius: 12px;
+  margin-left: 12px;
+  width: 100px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+#sign-in{
+  margin-left: 250%;
+}
+
+.btn-sign{
+  padding: 11px;
+  margin-top: 40px;
+  margin-left: 80%;
+  width: 100px;
+  background-color: #228fc1;
+  font-size: 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+.btn-sign a{
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+}
+
+.btn-sign a:hover{
+  color: rgb(222, 222, 222);
+}
+.h-review{
+  color: #101010;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.h-review a{
+  text-decoration: none;
+}
+option{
+  padding: 100px;
+}
+
+/* body */
+.section-b{
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.reviews{
+  display: flex;;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #c4351c;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.name{
+  color: #c4351c;
+  margin-left: 25%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3%;
+}
+
+img{
+  border-radius: 9px;
+  
+}
+img:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.image3{
+  margin-left: -4%;
+}
+.logo{
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-right: 5px;
+  padding: 3px;
+}
+p{
+  font-size: 20px;
+  margin-left: 10%;
+  font-family: monospace;
+  font-weight: 100;
+}
+#p-last{
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.desc{
+  color: #000;
+  background-color: rgb(243, 244, 253);
+  box-shadow: 2px 2px 5px #333;
+  margin-bottom: 10px;
+  padding: 40px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.btn-explore{
+  color: #fff;
+  background-color: #286AE0;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 16px;
+  margin: 10px;
+}
+
+/* .btn-explore a{
+  text-decoration: none;
+} */
+
+.share{
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 17px;
+  font-size: 20px;
+}
+
+.share a{
+  text-decoration: none;
+  color: rgb(17, 16, 16);
+}
+
+.share a:hover{
+  color: #286AE0;
+}
+
+.browse{
+  color: black;
+  font-size: 28px;
+}
+.browser-section{
+  background-color: rgb(228, 233, 234);
+  display: flex;
+  border-radius: 11px;
+  background-image: url('./Assets/erik-mclean-NPAtNXuJBUg-unsplash\ \(1\).jpg');
+
+  /* background-image: url("./Assets/erik-mclean-NPAtNXuJBUg-unsplash\ \(1\).jpg"); */
+}
+
+/* Footer */
+.footer{
+  background-color: #041513;
+  /* display: flex; */
+  color: #228fc1;
+  margin-top: 60px;
+  padding: 30px;
+}
+.foo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.rows{
+  /* display: flex; */
+  flex-direction: column;
+  margin-left: 5%;
+  width: 100%;
+}
+.rights{
+  display: flex;
+  justify-content: center;
+}
+.h-footer{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#p-about{
+  color: #228fc1;
+  margin-left: -40px;
+  font-size: 16px;
+}
+#p-abouts{
+  color: aqua;
+  margin-left: 0px;
+  font-size: 16px;
+}
+h5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 2px;
+  margin-left: 25%;
+}
+li{
+  padding: 5px;
+}
+
+.h-footer{
+  color: #fff;
+}
+
+
+.api{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  flex-direction: column;
+  /* margin: 5px; */
+  margin-left: 0.5%;
+
+}
+/* img{
+  height: 200px;
+  width: 200px;
+} */
+/* products from API */
+#product{
+  padding: 10px;
+  width: 130px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 10px;
+  background-color: #2b6be2;
+  border: 1px solid#fff;
+
+}
+#product:hover {
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+
+.cars{
+  background-color: rgb(222, 222, 222);
+  width: 100%;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  height: 130vh;
+}
+.cardiv{
+  height: 240px;
+  width:300px;
+  display: inline-block;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  background-color: #90c9ca;
+  padding: 1px auto;
+}
+
+.textarea-01{
+  background-color: #bfc9d9;
+}
+.textarea-01 textarea,
+.input[type=number] {
+  width: 50%;
+  display: block;
+  padding: 5px 5px;
+  /* margin: 5px auto 45px 20px; */
+  margin-bottom: 10px;
+  background-color: #ddd;
+  align-items: center;
+}
+
+.carimage{
+  width: 98%;
+}
+
+.carh4{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.carh5{
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* search */
+.search{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
